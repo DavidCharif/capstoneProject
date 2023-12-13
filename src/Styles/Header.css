@@ -1,0 +1,25 @@
+header {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  height: 80px;
+}
+
+header a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+header a:hover {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+header img {
+  max-width: 180px;
+}
