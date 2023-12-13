@@ -1,0 +1,17 @@
+button {
+  border-radius: 10px;
+  display: flex;
+  padding: 10px 15px;
+  border: none;
+}
+
+button a {
+  font-size: 0.8rem;
+  color: black;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+button:hover {
+  outline: 1px solid black;
+}
