@@ -1,20 +1,22 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react/react-in-jsx-scope */
+
+import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './App.css'
-import { AppContext } from './Context/Context'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Main from './components/Main'
-import Nav from './components/Nav'
+import BookingPage from './pages/BookingPage'
+import Home from './pages/Home'
 
 function App () {
+  const routes = createBrowserRouter([
+    { path: '/', element: <Home/> },
+    { path: '/booking', element: <BookingPage/> }
+  ])
   return (
-    <AppContext>
-      <Header>
-        <Nav/>
-      </Header>
-      <Main/>
-      <Footer/>
-    </AppContext>
+    <>
+
+        <RouterProvider router={routes} />
+
+    </>
   )
 }
 

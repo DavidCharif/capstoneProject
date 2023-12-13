@@ -35,3 +35,10 @@ code {
 button {
   background-color: var(--primary-color-two);
 }
+
+.especialContainers {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

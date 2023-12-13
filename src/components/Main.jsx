@@ -1,10 +1,14 @@
+/* eslint-disable react/prop-types */
 import React from 'react'
-import HeroBanner from './HeroBanner'
 
-const Main = () => {
+const Main = ({ children }) => {
   return (
-    <main>
-      <HeroBanner />
+    <main style={{
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'center'
+    }}>
+      {children}
     </main>
   )
 }

@@ -1,0 +1,7 @@
+.specialCard {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: #edefee;
+  height: 500px;
+}
