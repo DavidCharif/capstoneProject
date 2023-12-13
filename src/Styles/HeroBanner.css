@@ -1,0 +1,57 @@
+.heroBanner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  padding: 2rem 0;
+}
+article {
+  display: inline-flex;
+  gap: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-basis: 25%;
+  flex-grow: 0;
+}
+
+.heroBanner h3 {
+  color: #bfa300;
+  font-size: 2.8rem;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  line-height: 14px;
+}
+.heroBanner h4 {
+  color: #fff;
+  padding: 0;
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin-bottom: 5px;
+  margin: 0;
+}
+.heroBanner p {
+  color: #fff;
+  width: 50%;
+  padding: 0;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 18px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.heroBanner .imageContainer img {
+  position: absolute;
+  top: 20px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.heroBanner .imageContainer {
+  flex-basis: 15%;
+  display: inline-flex;
+}
