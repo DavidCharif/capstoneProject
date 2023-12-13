@@ -1,13 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Markazi+Text&display=swap");
+
+:root {
+  --background-light: #ffffff;
+  --primary-color: #495e57;
+  --primary-color-two: #f4ce14;
+  --secondary-color-one: #ee9972;
+  --secondary-color-two: #fbdabb;
+  --highlight-color-one: #edefee;
+  --highlight-color-one: #333;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  font-family: "Markazi Text", serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--background-light);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.heroBanner {
+  background-color: var(--primary-color);
+}
+
+button {
+  background-color: var(--primary-color-two);
 }
