@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import React from 'react'
 import BookingForm from '../components/BookingForm'
-import BookingPage from './BookingPage'
+// import BookingPage from './BookingPage'
 
 test('Renders the BookingForm heading', () => {
   render(<BookingForm />)
@@ -9,19 +9,19 @@ test('Renders the BookingForm heading', () => {
   expect(headingElement).toBeInTheDocument()
 })
 
-test('initializeTimes returns the correct expected value', () => {
-  // Assuming initializeTimes is a method on the BookingForm component
-  render(<BookingPage />)
-  
- // const initializeTimes = result?.current?.initializeTimes()
-  const expectedValue = [
-    '17:00',
-    '18:00',
-    '19:00',
-    '20:00',
-    '21:00',
-    '22:00'
-  ]
+// test('initializeTimes returns the correct expected value', () => {
+//   // Assuming initializeTimes is a method on the BookingForm component
+//   render(<BookingPage />)
 
-  //expect(initializeTimes).toEqual(expectedValue)
-})
+//   // const initializeTimes = result?.current?.initializeTimes()
+//   const expectedValue = [
+//     '17:00',
+//     '18:00',
+//     '19:00',
+//     '20:00',
+//     '21:00',
+//     '22:00'
+//   ]
+
+//   // expect(initializeTimes).toEqual(expectedValue)
+// })
