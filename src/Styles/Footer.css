@@ -4,8 +4,9 @@ footer {
     min-height: 13rem;
     background-color: #495e57;
     color: #ffffff;
-    padding-bottom: 1rem;
+    padding: 2rem;
     margin-top: -1.4rem;
+
   }
   
   footer > menu {

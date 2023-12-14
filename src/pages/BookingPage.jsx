@@ -61,7 +61,9 @@ const BookingPage = () => {
   return (
     <Layout>
       <Main>
+        <section className='formSection'>
       <BookingForm formData={formData} setFormData={setFormData} handleSubmit={handleSubmit} />
+      </section>
       </Main>
     </Layout>
   )

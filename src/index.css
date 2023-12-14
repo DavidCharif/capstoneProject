@@ -44,3 +44,21 @@ button {
   gap: 50px;
   margin-bottom: 100px;
 }
+
+
+.formSection {
+  display: flex;
+  height: 75vmin;  
+  background-color: #495e579c;
+}
+
+.formSection form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 1.8rem;
+  padding: 20px;
+  outline: 1px solid #495e57;
+  border-radius: 50px;
+  padding: 80px;
+}
