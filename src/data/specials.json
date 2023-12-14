@@ -9,16 +9,16 @@
         },
         {
             "_id": 1,
-            "name": "Greek salad",
-            "price": 12.99,
-            "description": "The famous greek salad of crispy lettuce, peppers, olides and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons",
+            "name": "Bruschetta",
+            "price": 16.99,
+            "description": "Toasted bread, topped with tomato, prosciutto, and cheese. Seasoned with salt and olive oil.",
             "image": "lemon dessert.jpg"
         },
         {
             "_id": 2,
-            "name": "Greek salad",
-            "price": 12.99,
-            "description": "The famous greek salad of crispy lettuce, peppers, olides and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons",
+            "name": "Lemon Dessert",
+            "price": 8.50,
+            "description": "Fresh baked lemon bread coated in salt and sugar. Powdered in citrus and lemon zest.",
             "image": "greek salad.jpg"
         }
     ]

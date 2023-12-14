@@ -18,7 +18,7 @@ const MenuCard = ({ ...props }) => {
         <img src={images[_id]} alt={name} height={200} />
         <section className='menu-card-content'>
         <div className='nameAndPrice'>
-            <b>{name}</b> <i className='price'>{price}</i>
+            <b>{name}</b> <i className='price'>${price}</i>
         </div>
         <p>{description}</p>
 

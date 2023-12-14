@@ -8,8 +8,8 @@ import Home from './pages/Home'
 
 function App () {
   const routes = createBrowserRouter([
-    { path: '/', element: <Home/> },
-    { path: '/booking', element: <BookingPage/> }
+    { path: '/capstoneProject/', element: <Home/> },
+    { path: '/capstoneProject/booking', element: <BookingPage/> }
   ])
   return (
     <>

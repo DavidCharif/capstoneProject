@@ -1,13 +1,14 @@
 /* eslint-disable react/prop-types */
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../Styles/Button.css'
 
 const Button = ({ location, children }) => {
   return (
     <button className='buttonPrimary'>
-      <a href={location}>
+      <Link to={location}>
         {children}
-      </a>
+      </Link>
     </button>
   )
 }

@@ -12,7 +12,7 @@ const HeroBanner = () => {
             <p>
                 We are a family owned Mediterranean restaurant focused on traditional recipes served with a modern twist.
             </p>
-            <Button location="#Reserve" >
+            <Button location="/booking" >
                 Reserve a Table
             </Button>
         </article>
