@@ -1,5 +1,5 @@
 import React from 'react'
-import Chicago from '../components/Chicago'
+import AboutUs from '../components/AboutUs'
 import CustomersSay from '../components/CustomersSay'
 import HeroBanner from '../components/HeroBanner'
 import Hightlights from '../components/Hightlights'
@@ -15,7 +15,7 @@ const Home = () => {
         <HeroBanner />
         <Hightlights />
         <CustomersSay />
-        <Chicago/>
+        <AboutUs/>
       </Main>
     </Layout>
    </>
